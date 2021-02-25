@@ -87,7 +87,24 @@ padding: auto;
 
 .list1{
 text-align: left;
-margin-left: 35%;
+margin-left: 20%;
+text-decoration: none;
+list-style: none;
+color: #888888;
+font-weight: bold;
+
+}
+
+.list2{
+margin-top: 5px;
+padding-top: 5px;
+text-align: left;
+margin-left: 20%;
+text-decoration: none;
+list-style: none;
+color: #888888;
+font-weight: bold;
+
 }
 .footerps{
   text-decoration: none;
@@ -96,7 +113,7 @@ margin-left: 35%;
   font-weight: lighter;
 }
 
-.footerps::hover{
-  color: rgb(25, 0, 250);
-
+.footerps:hover{
+  color: rgb(0, 225, 255);
+  font-weight: bold;
 }
