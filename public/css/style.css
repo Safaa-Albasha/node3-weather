@@ -72,3 +72,31 @@ background-color:#343434 ;
 color: white;
 
 }
+
+
+.p1{
+  font-size: 20px;
+font-weight: bold;  
+padding: auto;
+}
+.p2{
+font-size: 20px;
+font-weight: 200;  
+padding: auto;
+}
+
+.list1{
+text-align: left;
+margin-left: 35%;
+}
+.footerps{
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.footerps::hover{
+  color: rgb(25, 0, 250);
+
+}
