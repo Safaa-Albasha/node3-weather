@@ -25,14 +25,14 @@ app.use(express.static(publicdirname))
 app.get('/', (req, res) => {
 	res.render('index', {
 		title: 'Weather App | First NodeJs App',
-		name:'safa'
+		name:'Safa'
 	});
 });
 
 app.get('/about', (req, res) => {
   res.render('about',{
     title:'About ',
-    name:'safa'
+    name:'Safa'
   })
   
 });
@@ -41,7 +41,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help',{
     title:'Help',
-    name:'safa'
+    name:'Safa'
   })
   
 });
@@ -76,7 +76,7 @@ geocode(req.query.address,(error,{ lattitude, longitude ,  location}={}) =>{
 app.get('/help/*', (req, res) => {
   res.render('404',{
     title:'404',
-    name:'safa',
+    name:'Safa',
     errorMsg:'Oops Article Not Found'
   });
 });
@@ -86,7 +86,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
   res.render('404',{
     title:'404',
-    name:'safa',
+    name:'Safa',
     errorMsg:'Oops Page Not FOUND'
   });
 });
