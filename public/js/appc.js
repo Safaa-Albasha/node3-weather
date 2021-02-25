@@ -1,5 +1,5 @@
 
-console.log('this is from appjs front id');
+// console.log('this is from appjs front id');
 
 
 // fetch('http://puzzle.mead.io/puzzle').then( (response)=>{
@@ -46,6 +46,8 @@ fetch('http://localhost:3000/weather?address='+Location).then((response)=>{
   })
 
 }
+
+//clint js file
 
 
 
